@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carbon_fiber2"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="876dp"
+        android:layout_height="430dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="372dp"
+        android:src="@drawable/octavexlogotext"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button_meditation"
+        android:layout_width="159dp"
+        android:layout_height="81dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/buttonlooks"
+        android:stateListAnimator="@drawable/buttonpress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <ImageButton
+        android:id="@+id/button_stories"
+        android:layout_width="126dp"
+        android:layout_height="77dp"
+        android:layout_below="@id/button_meditation"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonlooks"
+        android:stateListAnimator="@drawable/buttonpress"
+        app:layout_constraintBottom_toTopOf="@+id/button_meditation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+
+    <ImageButton
+        android:id="@+id/button_music"
+        android:layout_width="108dp"
+        android:layout_height="76dp"
+        android:layout_below="@id/button_stories"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonlooks"
+        android:stateListAnimator="@drawable/buttonpress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-8287213534284010/1234567890"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="8D Music"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/button_music"
+        app:layout_constraintEnd_toEndOf="@+id/button_music"
+        app:layout_constraintStart_toStartOf="@+id/button_music"
+        app:layout_constraintTop_toTopOf="@+id/button_music" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stories"
+        app:layout_constraintBottom_toBottomOf="@+id/button_stories"
+        app:layout_constraintEnd_toEndOf="@+id/button_stories"
+        app:layout_constraintStart_toStartOf="@+id/button_stories"
+        app:layout_constraintTop_toTopOf="@+id/button_stories" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meditation"
+        app:layout_constraintBottom_toBottomOf="@+id/button_meditation"
+        app:layout_constraintEnd_toEndOf="@+id/button_meditation"
+        app:layout_constraintStart_toStartOf="@+id/button_meditation"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "384936603832",
+    "project_id": "octavex4",
+    "storage_bucket": "octavex4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384936603832:android:2845e46abb8264f98d444d",
+        "android_client_info": {
+          "package_name": "com.ddr.octavex4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384936603832-if7cktbhus55jap97aimg784sdjeejcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ_R0ULBhXWDxdprBgoJIw4pXprBgi3J8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384936603832-if7cktbhus55jap97aimg784sdjeejcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
